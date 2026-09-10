@@ -1,0 +1,284 @@
+/* 헤더 영역 */
+
+header {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header .wrap {
+    justify-content: space-between;
+}
+
+header .gnb {
+    gap: 60px;
+    font-weight: bold;
+}
+
+header .snb {
+    background: #eee;
+    border-radius: 10px;
+    padding: 4px 8px;
+    gap: 8px;
+    margin-left: 60px;
+}
+
+header .snb p {
+    color: #ccc;
+}
+
+/* 메인 영역 */
+
+#main {
+    background: url(../images/visual.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 440px;
+    position: relative;
+}
+
+#main article {
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    user-select: none;
+}
+
+#main article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#main article p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+#main article a {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+#main nav {
+    background: #f47320;
+}
+
+#main ul {
+    justify-content: space-between;
+}
+
+#main ul li {
+    width: 25%;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main ul li a {
+    display: block;
+    line-height: 3;
+}
+
+#main ul li img {
+    margin-right: 10px;
+}
+
+/* 시상 영역 */
+
+#award {
+    margin-top: 130px;
+}
+
+#award .yy ul {
+    padding: 0 100px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#award .yy ul li {
+    color: #ccc;
+    font-size: 24px;
+    padding: 10px 0;
+    flex: 1;
+    text-align: center;
+    border: 1px solid transparent;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+#award .yy ul li:last-child {
+    border-right: 1px solid transparent;
+}
+
+#award .yy ul li a {
+    display: block;
+}
+
+#award .yy ul li.on,
+#award .yy ul li:hover {
+    color: #f47320;
+    border-color: #f47320;
+}
+
+#award .abc {
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#award .abc>a img {
+    width: 100%;
+}
+
+#award .list ul {
+    gap: 10px;
+}
+
+#award .list ul:last-child {
+    margin-top: 10px;
+}
+
+#award .list ul li {
+    position: relative;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#award .list ul li p {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#award .list ul li img {
+    width: 100%;
+}
+
+#award .cba {
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#award .cba img {
+    width: 100%;
+}
+
+#award .cba ul {
+    gap: 8px;
+}
+
+#award .cba ul li {
+    background: #ccc;
+    width: 230px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#award .cba ul li a {
+    display: block;
+}
+
+
+/* 소식 영역 */
+
+#news {
+    background: #f6f6f6;
+    margin-top: 60px;
+    padding: 60px 0 30px;
+}
+
+#news .wrap {
+    align-items: start;
+    justify-content: space-between;
+}
+
+#news h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#news h3 a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+#news .top p {
+    margin-bottom: 10px;
+}
+
+#news ul {
+    display: flex;
+}
+
+#news ul li {
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#news ul li a {
+    display: block;
+    padding: 25px 0 20px;
+}
+
+#news ul li a p {
+    margin-top: 10px;
+}
+
+#news .bot a {
+    display: block;
+    height: 51px;
+    line-height: 51px;
+    font-size: 26px;
+    color: #f47320;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#news .bot p {
+    margin-top: 5px;
+}
+
+/* 푸터 영역 */
+
+footer {
+    padding-top: 40px;
+}
+
+footer .dbwrap {
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+footer article a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer .dbwrap article:last-child h3 {
+    margin-bottom: 15px;
+}
+
+footer nav {
+    margin: 20px 0;
+    gap: 10px;
+}
+
+footer nav ul {
+    gap: 10px;
+}

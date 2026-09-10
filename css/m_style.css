@@ -1,0 +1,159 @@
+@media (max-width:800px) {
+    .pc {
+        display: none !important;
+    }
+
+    .blank {
+        height: 50px;
+    }
+
+    /* 메인 영역 */
+
+    #main {
+        height: 240px;
+    }
+
+    #main article {
+        height: 240px;
+    }
+
+    #main article h3 {
+        font-size: 20px;
+    }
+
+    #main article p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    #main article a {
+        font-size: 14px;
+    }
+
+    #main ul li {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    #main ul li img {
+        margin-right: 0;
+    }
+
+    /* 시상 영역 */
+
+    #award {
+        margin-top: 120px;
+    }
+
+    #award .yy ul {
+        padding: 0;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    #award .yy ul .on {
+        color: #f47320;
+        border: none;
+    }
+
+    #award .yy ul li {
+        color: #ccc;
+        font-size: 24px;
+        padding: 0;
+        flex: 1;
+        border-right: none;
+        transition: 0s;
+    }
+
+    #award .yy ul li:hover {
+        border: none;
+    }
+
+    #award .yy ul li a:hover {
+        color: #ccc;
+    }
+
+    #award .abc {
+        display: block;
+    }
+
+    #award .list {
+        margin: 10px 0;
+    }
+
+    #award .cba {
+        display: block;
+    }
+
+    #award .cba ul {
+        gap: 10px;
+    }
+
+    #award .cba ul li {
+        width: 100%;
+        line-height: 80px;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    /* 소식 영역 */
+
+    #news {
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+
+    #news .wrap {
+        display: block;
+    }
+
+    #news .top {
+        margin-bottom: 40px;
+    }
+
+    #news .top p {
+        margin-bottom: 10px;
+    }
+
+    #news .bot a {
+        display: block;
+        height: 51px;
+        line-height: 51px;
+        font-size: 26px;
+        color: #f47320;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #news .bot a {
+        text-align: center;
+    }
+
+    #news .bot p {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    /* 푸터 영역 */
+
+    footer nav.flex {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:801px) {
+    .mob {
+        display: none !important;
+    }
+
+}
